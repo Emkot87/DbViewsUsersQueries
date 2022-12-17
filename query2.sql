@@ -1,7 +1,3 @@
 SELECT * 
 FROM products
-WHERE products.price > 4
-INTERSECT
-SELECT *
-FROM products 
-WHERE products.supplier = "Bonduelle";
+WHERE products.price > 4 AND products.supplier = "Bonduelle"
