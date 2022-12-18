@@ -1,3 +1,3 @@
 SELECT * 
-FROM products
-WHERE products.price > 4 AND products.supplier = "Bonduelle"
+FROM product
+WHERE product.price > 4 AND product.supplier = "Bonduelle"

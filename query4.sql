@@ -1,3 +1,3 @@
 SELECT * 
-FROM products
-WHERE products.category = "Dairy" and products.supplier IN  ("Mevgal", "Olympos");
+FROM product
+WHERE product.category = "Dairy" and product.supplier IN  ("Mevgal", "Olympos");
